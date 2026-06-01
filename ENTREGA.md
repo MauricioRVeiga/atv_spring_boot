@@ -23,4 +23,4 @@ Link publico do repositorio:
 
 Imagem publicada com a tag:
 
-`mauricorveiga/mauriciorafaelveiga:v0.0.2`
+`mauricorveiga/mauriciorafaelveiga:v0.0.3`

@@ -21,6 +21,9 @@ class AtividadeControllerTest {
     void deveRetornarNomeCompletoNoEndpointAtividade() throws Exception {
         mockMvc.perform(get("/atividade"))
                 .andExpect(status().isOk())
-                .andExpect(content().string("Mauricio Rafael Veiga"));
+                .andExpect(content().contentTypeCompatibleWith("text/html"))
+                .andExpect(content().string(org.hamcrest.Matchers.containsString("Mauricio Rafael Veiga")))
+                .andExpect(content().string(org.hamcrest.Matchers.containsString("Hino Oficial do Santos Futebol Clube")))
+                .andExpect(content().string(org.hamcrest.Matchers.containsString("audio")));
     }
 }
