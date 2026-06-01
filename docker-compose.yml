@@ -1,0 +1,7 @@
+services:
+  tarefa2-iec-springboot:
+    image: mauricorveiga/mauriciorafaelveiga:v0.0.3
+    container_name: tarefa2-iec-springboot
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
