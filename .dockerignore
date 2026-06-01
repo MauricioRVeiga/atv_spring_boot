@@ -1,0 +1,5 @@
+.git
+target/*.jar.original
+evidencias
+pdf_page_*.png
+tools

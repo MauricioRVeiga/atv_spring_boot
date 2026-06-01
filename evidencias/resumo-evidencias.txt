@@ -1,0 +1,6 @@
+Arquivos de evidencia gerados:
+01-build.png
+02-docker-image.png
+03-container.png
+04-aplicacao-funcionando.png
+05-docker-push.png
